@@ -1,4 +1,8 @@
 Yummy::Application.routes.draw do
+  get "staticpages/home"
+
+  get "staticpages/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
